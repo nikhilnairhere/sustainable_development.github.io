@@ -1,0 +1,67 @@
+body {
+  background-color: #e0bbe4;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Product Sans";
+}
+@font-face {
+  font-family: "Product Sans";
+  font-style: normal;
+  src: local("Open Sans"), local("OpenSans"),
+    url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2)
+      format("woff2");
+}
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: x-large;
+  padding-top: 38%;
+  padding-bottom: 25%;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 0%;
+  padding-right: 13%;
+}
+nav {
+  background-color: black;
+  margin-right: -8px;
+  margin-top: -2%;
+  margin-left: -2%;
+}
+.aan {
+  color: #dfa8e6;
+}
+h1 {
+  margin-left: 4%;
+  font-size: 455%;
+}
+h2 {
+  font-size: 225%;
+  margin-left: 4%;
+  margin-right: 25%;
+}
+button {
+  -webkit-border-radius: 50px;
+  border-radius: 0px;
+  background: #e0bbe4;
+  -webkit-box-shadow: 12px 12px 24px #af92b2, -12px -12px 24px #ffe4ff;
+  box-shadow: 12px 12px 24px #af92b2, -12px -12px 24px #ffe4ff;
+  border-style: none;
+  padding-left: 3%;
+  padding-right: 35px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+p {
+  margin-right: 0%;
+}
+span {
+  font-size: 125%;
+}

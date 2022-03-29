@@ -1,0 +1,85 @@
+body {
+  background-color: #ffd6ba;
+  height: 100vh;
+  width: 100vh;
+}
+* {
+  box-sizing: border-box;
+  font-family: "Product Sans";
+}
+@font-face {
+  font-family: "Product Sans";
+  font-style: normal;
+  src: local("Open Sans"), local("OpenSans"),
+    url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2)
+      format("woff2");
+}
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: x-large;
+  padding-top: 25%;
+  padding-bottom: 25%;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 0%;
+  padding-right: 13%;
+}
+nav {
+  background-color: black;
+  margin-right: -117%;
+  margin-top: -3%;
+  margin-left: -2%;
+}
+h1 {
+  font-size: 455%;
+  margin-left: 4%;
+  margin-top: -60%;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  background: #ffd6ba;
+  -webkit-box-shadow: 12px 12px 24px #d4b29a, -12px -12px 24px #fffada;
+  box-shadow: 12px 12px 24px #d4b29a, -12px -12px 24px #fffada;
+  padding: 5%;
+}
+h2 {
+  font-size: 225%;
+  margin-left: 4%;
+  margin-right: -100%;
+}
+img {
+  height: 80%;
+  width: 80%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-right: 0%;
+  margin-left: 120%;
+}
+hr {
+  margin-left: 4%;
+  margin-right: -100%;
+  background-color: black;
+  height: 00%;
+}
+.sustain:hover {
+  color: #3d3d3d;
+}
+.what:hover {
+  color: #3d3d3d;
+}
+.whatans:hover {
+  color: #3d3d3d;
+}
+.india:hover {
+  color: #3d3d3d;
+}
+.indiaans:hover {
+  color: #3d3d3d;
+}
+.ss {
+  color: #ffd6ba;
+}
